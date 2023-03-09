@@ -28,7 +28,7 @@ pip install web3 requests eth-utils
 
 ## Usage
 
-1.You must enter your CoinMarketCap API the first time you run the file (You can change it later by editing it in the file cmc_api_key.txt)
+1. You must enter your CoinMarketCap API the first time you run the file (You can change it later by editing it in the file cmc_api_key.txt)
 ```
 Enter your CoinMarketCap API key : xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx
 ```
