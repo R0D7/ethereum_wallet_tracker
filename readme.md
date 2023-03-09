@@ -2,9 +2,9 @@
 The Ethereum Wallet Tracker is a Python program that allows you to retrieve the value of an Ethereum wallet in US dollars by simply entering the wallet's address. This program makes use of the CoinMarketCap API to fetch the current price of Ethereum and ERC20 tokens and web3 package to get the balance of any wallet.
 
 ## Features
-Retrieve the balance of an Ethereum wallet in US dollars
-Support for ERC20 tokens _(Currently, the program only tracks the top 35 ERC20 tokens in terms of the highest circulating market capitalization of march 2023. This means that only these tokens will be included in the calculation of the wallet's total value.)_
-Automatically fetches the current price of Ethereum and ERC20 tokens from the CoinMarketCap API
+* Retrieve the balance of an Ethereum wallet in US dollars
+* Support for ERC20 tokens _(Currently, the program only tracks the top 35 ERC20 tokens in terms of the highest circulating market capitalization of march 2023. This means that only these tokens will be included in the calculation of the wallet's total value.)_
+* Automatically fetches the current price of Ethereum and ERC20 tokens from the CoinMarketCap API
 
 ## Prerequisites
 To use the Ethereum Wallet Tracker, you need the following:
@@ -19,11 +19,11 @@ To use the Ethereum Wallet Tracker, you need the following:
 ## Installation
 1. Clone the repository
 ```
-git clone https://github.com/R0D7/ethereum-wallet-tracker.git
+git clone https://github.com/R0D7/ethereum_wallet_tracker.git
 ```
 2. Install the required libraries using pip
 ```
-pip install web3 requests
+pip install web3 requests eth-utils
 ```
 
 ## Usage
