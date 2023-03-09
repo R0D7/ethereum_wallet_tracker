@@ -28,19 +28,20 @@ pip install web3 requests eth-utils
 
 ## Usage
 
-1. You must enter your CoinMarketCap API the first time you run the file (You can change it later by editing it in the file cmc_api_key.txt)
+1. Run how_much_is_it_worth.py 
+2. You must enter your CoinMarketCap API the first time you run the file (You can change it later by editing it in the file cmc_api_key.txt)
 ```
 Enter your CoinMarketCap API key : xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx
 ```
-2. You must enter your node provider url the first time you run the file (You can change it later by editing it in the file node_url_provider.txt)
+3. You must enter your node provider url the first time you run the file (You can change it later by editing it in the file node_url_provider.txt)
 ```
 Enter your node provider url : https://mainnet.infura.io/v3/XxxxXXXxxxxXxx
 ```
-3. Enter the Ethereum wallet address you want to track.
+4. Enter the Ethereum wallet address you want to track.
 ```
 Enter an ethereum adress : 0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503
 ```
-4. The program will output the total value of the wallet in US dollars
+5. The program will output the total value of the wallet in US dollars
 ```
 The wallet is worth 170640110.58 $
 ```
